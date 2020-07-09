@@ -7,29 +7,37 @@
 </head>
 <body>
     <h2>Forms in HTML</h2>
+    
     <form action="code.py">
         <div>
-            Name: <input type="text" name="myname">
+            <label for="name"> Name: </label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        
+        <div>
+            <label for="age"> Age: </label>
+            <input type="number" name="myage" id="age">
         </div>
         <br>
         <div>
-            Age: <input type="number" name="myage">
+            <label for="email"> Email: </label>
+            <input type="email" name="mymail" id="email">
         </div>
         <br>
         <div>
-            Email: <input type="email" name="mymail">
+            <label for="password">Password: </label>
+            <input type="password" name="mypwd" id="password">
         </div>
         <br>
         <div>
-            Password: <input type="password" name="mypwd">
+            <label for="18">are you 18+ ?: </label>
+            <input type="checkbox" name="mygender" id="18" checked>
         </div>
         <br>
         <div>
-            are you 18+ ?: <input type="checkbox" name="mygender">
-        </div>
-        <br>
-        <div>
-            D.O.B: <input type="date" name="mydate">
+            <label for="dob"> D.O.B: </label>
+            <input type="date" name="mydate" id="dob">
         </div>
         <br>
         <div>
@@ -39,12 +47,19 @@
         </div>
         <br>
         <div>
+            <label for="bio">Tell me about yourself: </label>
+            <br> 
+            <textarea name="mybio" cols="70" rows="10" id="bio"></textarea>
+        </div>
+        <br>
+        <div>
             <input type="button" value="Submit Now">
         </div>
         <br>
         <div>
             <input type="reset" value="Reset">
         </div>
+        <br>
 
 
 
