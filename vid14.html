@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+</head>
+<style>
+    /* this is the element selector*/
+    p{
+        
+        color: saddlebrown;
+        background-color: silver;
+        font-weight: bold;
+    }
+
+    /* this is the group selector */
+    span, footer {
+        color : blue;
+        background-color: cadetblue;
+        font-weight: bolder;
+        font: italic;
+        font-family: sans-serif;
+    }
+
+    /* this is the id selector */
+    #last {
+        color: hotpink;
+        background-color: greenyellow;
+        font-family: monospace;
+        font-size: 20px;
+    }
+
+    /* this is the class selector */
+    .myclass {
+        color: blue;
+        background-color: chocolate;
+        font-family: 'Courier New';
+        font-size: 23px;
+    }
+
+
+</style>
+<body>
+    <h3> Types of selectors in CSS </h3>
+    <p> Element selector </p>
+    <p> Group selector </p>
+    <p> Id selector</p>
+    <p> Class Selector</p>
+
+    <div>
+        <h4> this line goes under div tag</h4>
+    </div>
+    <p id='last'> The only line which is having ID</p>
+    <p class="myclass">  This one is having class called "myclass"</p>
+    <p class="myclass"> This one also having the same class "myclass"</p>
+
+    <span> This one goes under span</span>
+    <footer> This one is footer</footer>
+
+
+</body>
+</html>
