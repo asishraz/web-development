@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gareeb</title>
+    <link rel="stylesheet" href="random.css">
+</head>
+
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #262626;
+    }
+
+    .hidden {
+        display: none;
+      }
+
+    #btn_asish {
+        width: 100px;
+        height: 100px;
+        border: solid;
+        border-radius: 50%;
+
+    }
+    #btn_asish:hover {
+        font-size: 20px;
+        font-family: Verdana;
+    }
+
+    button {
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'VT323', monospace;
+        border-radius: 999px;
+        border-color: black;
+        height: 50px;
+        flex: 1;
+        padding: 10px 25px;
+        margin: 15px;
+        border: 5px solid #284cff;
+        text-shadow: 0 3px 5px rgba(0,0,0,0.25);
+        white-space: nowrap;
+        color:#fff;
+        cursor: pointer;
+        user-select: none;
+        background: transparent;
+        background-image: url(buttons.JPG);
+        background-repeat: repeat-x;
+        background-position: 0-100%;
+        transition: 1.5s ease;
+
+    }
+
+    button:hover{
+        background-position: 500% 100%;
+    }
+
+    button:nth-child(1) {
+        filter: hue-rotate(20deg);
+    }
+
+    button:nth-child(2) {
+        filter: hue-rotate(40deg);
+    }
+
+    button:nth-child(3) {
+        filter: hue-rotate(60deg);
+    }
+
+    button:nth-child(4) {
+        filter: hue-rotate(80deg);
+    }
+
+    button:nth-child(5) {
+        filter: hue-rotate(100deg);
+    }
+
+
+
+    
+    
+
+    .hidden {
+        width: 200px;
+        display: none;
+    }
+    .hidden2 {
+        width: 200px;
+        display: none;
+    }
+    .hidden3 {
+        width: 200px;
+        display: none;
+    }
+    .hidden4 {
+        width: 200px;
+        display: none;
+    }
+    .hidden5 {
+        width: 200px;
+        display: none;
+    }
+
+
+
+    .shown {
+        display: block;
+
+    }
+    #image1{
+        width: 150px;
+    }
+    #image2{
+        width: 150px;
+    }
+    #image3{
+        width: 150px;
+    }
+    #image4{
+        width: 150px;
+    }
+    #image5 {
+        width: 150px;
+    }
+
+    #asish {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 20vh;
+    }
+
+</style>
+<body>
+
+    <h1>
+        <span>G</span>
+        <span>A</span>
+        <span>R</span>
+        <span>E</span>
+        <span>E</span>
+        <span>B</span>
+        <span>-</span>
+        <span>C</span>
+        <span>0</span>
+        <span>D</span>
+        <span>E</span>
+        <span>R</span>
+    </h1>
+
+
+
+    <h2 data-text="Welcome to the world of Bhokaali."></h2> 
+    <br>
+    <h2 data-text="Firstly hover the mouse cursor to ASISH(you can click on it, to see the best channel in youtube &#128540;) and after that,">  </h2>
+    <br>
+    <h2 data-text="click on any buttons for the happiness"> </h2>
+        
+    </h2>
+
+
+
+    <div id="asish">
+        <a href="https://www.youtube.com/feed/my_videos" target="_blank">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Asish
+        </a>
+        
+        <br>
+        <br>
+        <button id="btn1">Random Day1</button>
+        <button id="btn2">Random Day2</button>
+        <button id="btn3">Random Day3</button>
+        <button id="btn4">Random Day4</button>
+        <button id="btn5">Random Day5</button>
+
+    </div>
+    <div id="uparrow">&#8687;
+
+    </div>
+
+    <div class="wrapper">
+        <div id="divid">
+            <img src="littimurga.jpg" alt="html5" id="image1" class="hidden">
+            <img src="samosa.jpg" alt="html5" id="image2" class="hidden2">
+            <img src="bhunjiya.jpg" alt="html5" id="image3" class="hidden3">
+            <img src="kaaju.jpg" alt="html5" id="image4" class="hidden4">
+            <img src="poori.jpg" alt="html5" id="image5" class="hidden5">
+            <div class="overlay">
+                <div class="content">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="sattu">
+
+        
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- <div class="bg-modal">
+        <div class="modal-content"></div>
+            <img src="html5.jpg" alt="" id="centerimg">
+
+    </div> -->
+
+    
+
+
+
+
+    
+</body>
+
+<script>
+    function toggleImage() {
+        var image1 = document.getElementById('image1');
+        image1.classList.toggle('hidden');
+      }
+      
+      var button = document.getElementById('btn1')
+      button.addEventListener('click', toggleImage)
+
+</script>
+
+<script>
+    function toggleImage() {
+        var image = document.getElementById('image2');
+        image.classList.toggle('hidden2');
+      }
+      
+      var button = document.getElementById('btn2')
+      button.addEventListener('click', toggleImage)
+
+</script>
+
+<script>
+    
+    function toggleImage() {
+        var image = document.getElementById('image3');
+        image.classList.toggle('hidden3');
+      }
+      
+      var button = document.getElementById('btn3')
+      button.addEventListener('click', toggleImage)
+
+
+</script>
+
+<script>
+    
+    function toggleImage() {
+        var image = document.getElementById('image4');
+        image.classList.toggle('hidden4');
+      }
+      
+      var button = document.getElementById('btn4')
+      button.addEventListener('click', toggleImage)
+
+
+</script>
+
+<script>
+    function toggleImage() {
+        var image = document.getElementById('image5');
+        image.classList.toggle('hidden5');
+      }
+      
+      var button = document.getElementById('btn5')
+      button.addEventListener('click', toggleImage)
+
+</script>
+
+    
+    
+
+</html>
